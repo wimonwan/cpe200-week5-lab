@@ -36,3 +36,6 @@ there must be at least one capitalized character and one non-capitalized
 character. The length must be at least 12. The method setPassword() must
 return the length of the new password. RuntimeException should be thrown 
  when an invalid password is assigned.
+ 
+5. For Users class, deleteUser must throw runtimeException when deleting 
+user does not exists.
